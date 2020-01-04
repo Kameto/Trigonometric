@@ -2,7 +2,7 @@
 
 Scene::Scene()
 {
-	sh = new Shape(SF::mCircle, 10);
+	sh = new Shape(SF::mBox, 100);
 }
 
 Scene::~Scene()
